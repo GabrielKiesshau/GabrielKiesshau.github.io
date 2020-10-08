@@ -7,6 +7,13 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css">
+        //TODO Duplicate sidebar, fix it
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script type='text/javascript'>
+            $(document).ready(function(){
+                $( "#sidebarFile" ).load( "sidebar.html" );
+            });
+        </script>
     </head>
     <body>
         <div class="container-fluid h-100">
@@ -19,7 +26,7 @@
                                     <img src="reddo.png" class="rounded-circle img-fluid" alt="Cinque Terre">
                                 </li>
                                 <li class="nav-item">
-                                    <h4>Gabriel H. Kiesshau</h4>
+                                    Gabriel H. Kiesshau
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link pl-0" href="#">
@@ -49,21 +56,54 @@
                         </div>
                     </nav>
                 </aside> -->
-                
+
                 <div id="sidebarFile"></div>
 
                 <main class="col offset-md-2 bg-faded py-3">
-                    <h2>> Sobre</h2>
+                    <h2>> Projetos</h2>
+                    <p>Estes são alguns dos meus projetos.</p>
 
-                    <h4>Gabriel H. Kiesshau</h4>
-
-                    <p>Programador e desenvolvedor de jogos por hobby</p>
+                    <div class="container p-4">
+                        <div class="row">
+                            <div class="col">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Projeto</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="https://www.google.com/" class="btn btn-primary stretched-link">Veja o projeto!</a>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="col">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Projeto</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="https://www.google.com/" class="btn btn-primary stretched-link">Veja o projeto!</a>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="col">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Projeto</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="https://www.google.com/" class="btn btn-primary stretched-link">Veja o projeto!</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </main>
             </div>
         </div>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="./include.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     </body>
