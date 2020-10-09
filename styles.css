@@ -5,27 +5,11 @@ body {
     height: 100%;
 }
         
-/* @media (min-width: 768px) {
+@media (min-width: 1132px) {
     aside {
         height: 100%;
     }
-} */
-
-aside {
-    height: 100%;
 }
-
-/* #sidebar li:hover {
-    color: #1fa87a;
-}
-
-#sidebar a:hover {
-    color: #1fa87a;
-} */
-
-/* .social-button-legacy {
-    position: relative;
-} */
 
 .code-text:hover > * {
     color: #1fa87a;
