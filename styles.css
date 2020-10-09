@@ -78,17 +78,17 @@ body {
     }
 }
 
-.social-button-github { background: #414141; }
+.social-button-github { background: #24292E; }
 .social-button-github:before {
-    background: linear-gradient(45deg,  #424242, #b1b1b1 );
+    background: linear-gradient(45deg,  #24292E, #777777 );
     background-size: 400%;
     transition: opacity .3s ease-in-out;
     animation: animate 20s linear infinite
 }
 
-.social-button-twitter { background: #55acee; }
-.social-button-twitter:before {
-    background: linear-gradient(45deg,  #00ffd5, #002bff );
+.social-button-linkedin { background: #0077B5; }
+.social-button-linkedin:before {
+    background: linear-gradient(45deg,  #283E4A, #0077B5 );
     background-size: 400%;
     transition: opacity .3s ease-in-out;
     animation: animate 20s linear infinite
