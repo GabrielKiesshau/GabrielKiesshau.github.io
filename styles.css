@@ -5,10 +5,15 @@ body {
     height: 100%;
 }
         
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     aside {
         height: 100%;
     }
+} */
+
+aside {
+    height: 100%;
+    z-index: -2;
 }
 
 /* #sidebar li:hover {
