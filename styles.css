@@ -11,20 +11,13 @@ body {
     }
 }
 
-#sidebar li:hover {
+/* #sidebar li:hover {
     color: #1fa87a;
 }
 
 #sidebar a:hover {
     color: #1fa87a;
-}
-
-/* a.project-card,
-a.project-card:hover {
-  color: inherit;
 } */
-
-
 
 /* .social-button-legacy {
     position: relative;
