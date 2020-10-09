@@ -23,3 +23,97 @@ a.project-card,
 a.project-card:hover {
   color: inherit;
 }
+
+
+
+/* .social-button-legacy {
+    position: relative;
+} */
+
+.social-button {
+    position: relative;
+    cursor: pointer;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	text-align: center;
+	-moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+    width: 48px;
+	height: 48px;
+    margin: 8px;
+	padding: 13px;
+	font-size: 21px;
+    line-height: 21px;
+}
+
+.social-button:hover {
+    color: #fff;
+}
+
+.social-button:before {
+    position: absolute;
+    content: '';
+    top: -2px;
+    left: -2px;
+    height: calc(100% + 4px);
+    width: calc(100% + 4px);
+    border-radius: 5px;
+    z-index: -1;
+    opacity: 0;
+    filter: blur(5px);
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    background-size: 400%;
+    transition: opacity .3s ease-in-out;
+    animation: animate 20s linear infinite
+}
+
+.social-button:hover:before {
+    opacity: 1
+}
+
+.social-button:hover:active {
+    background: none;
+}
+
+.social-button:hover:active:before {
+    filter: blur(2px)
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0 0
+    }
+
+    50% {
+        background-position: 400% 0
+    }
+
+    100% {
+        background-position: 0 0
+    }
+}
+
+.social-button-github { background: #414141; }
+.social-button-github:before {
+    background: linear-gradient(45deg,  #424242, #b1b1b1 );
+    background-size: 400%;
+    transition: opacity .3s ease-in-out;
+    animation: animate 20s linear infinite
+}
+
+.social-button-twitter { background: #55acee; }
+.social-button-twitter:before {
+    background: linear-gradient(45deg,  #00ffd5, #002bff );
+    background-size: 400%;
+    transition: opacity .3s ease-in-out;
+    animation: animate 20s linear infinite
+}
+
+.social-button-ludumdare { background: #e99343; }
+.social-button-ludumdare:before {
+    background: linear-gradient(45deg,  #ffbb00, #ff5e00 );
+    background-size: 400%;
+    transition: opacity .3s ease-in-out;
+    animation: animate 20s linear infinite
+}
